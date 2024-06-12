@@ -1,4 +1,4 @@
-local function download(url, filenam)
+local function download(url, filename)
     local response = http.get(url)
     if response then
         local content = response.readAll()
